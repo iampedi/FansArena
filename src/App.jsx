@@ -12,7 +12,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <main className="app">
-      <div className="container max-w-5xl mx-auto py-5">
+      <div className="container max-w-5xl mx-auto py-10">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/clubs" element={<Clubs />}></Route>
