@@ -12,7 +12,7 @@ const Navbar = () => {
       <li>
         <NavLink to={"/nationals"}>Nationals</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to={"/players"}>Players</NavLink>
       </li>
       <li>
@@ -20,7 +20,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink to={"/trophies"}>Trophies</NavLink>
-      </li>
+      </li> */}
     </ul>
   );
 };

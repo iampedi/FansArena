@@ -1,0 +1,68 @@
+[
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "country": "Spain",
+      "founded": 1902,
+      "stadium": "Santiago Bernabéu",
+      "coach": "Carlo Ancelotti",
+      "titles": [
+        { "name": "La Liga", "count": 35 },
+        { "name": "UEFA Champions League", "count": 14 }
+      ],
+      "logo": "/assets/real-madrid.png"
+    },
+    {
+      "id": "barcelona",
+      "name": "FC Barcelona",
+      "country": "Spain",
+      "founded": 1899,
+      "stadium": "Spotify Camp Nou",
+      "coach": "Xavi Hernández",
+      "titles": [
+        { "name": "La Liga", "count": 27 },
+        { "name": "UEFA Champions League", "count": 5 }
+      ],
+      "logo": "/assets/barcelona.png"
+    },
+    {
+      "id": "man-united",
+      "name": "Manchester United",
+      "country": "England",
+      "founded": 1878,
+      "stadium": "Old Trafford",
+      "coach": "Erik ten Hag",
+      "titles": [
+        { "name": "Premier League", "count": 20 },
+        { "name": "UEFA Champions League", "count": 3 }
+      ],
+      "logo": "/assets/man-united.png"
+    },
+    {
+      "id": "bayern",
+      "name": "Bayern Munich",
+      "country": "Germany",
+      "founded": 1900,
+      "stadium": "Allianz Arena",
+      "coach": "Thomas Tuchel",
+      "titles": [
+        { "name": "Bundesliga", "count": 33 },
+        { "name": "UEFA Champions League", "count": 6 }
+      ],
+      "logo": "/assets/bayern.png"
+    },
+    {
+      "id": "psg",
+      "name": "Paris Saint-Germain",
+      "country": "France",
+      "founded": 1970,
+      "stadium": "Parc des Princes",
+      "coach": "Luis Enrique",
+      "titles": [
+        { "name": "Ligue 1", "count": 11 },
+        { "name": "Coupe de France", "count": 14 }
+      ],
+      "logo": "/assets/psg.png"
+    }
+  ]
+  

@@ -6,6 +6,8 @@ import Nationals from "./pages/Nationals";
 import Players from "./pages/Players";
 import Stadiums from "./pages/Stadiums";
 import Trophies from "./pages/Trophies";
+import ClubDetails from "./pages/ClubDetails";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/players" element={<Players />}></Route>
           <Route path="/stadiums" element={<Stadiums />}></Route>
           <Route path="/trophies" element={<Trophies />}></Route>
+          <Route path="/club/:id" element={<ClubDetails />}></Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </main>
