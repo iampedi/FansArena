@@ -8,8 +8,10 @@ const ClubDetails = () => {
   if (!club) return <p>Team not found</p>;
 
   return (
-    <div>
-      <p>Details of {club.name}</p>
+    <div className="_club-details">
+      <div className="container max-w-5xl mx-auto py-10">
+        <p>Details of {club.name}</p>
+      </div>
     </div>
   );
 };

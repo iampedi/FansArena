@@ -12,18 +12,16 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <main className="app">
-      <div className="container max-w-5xl mx-auto py-10">
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/clubs" element={<Clubs />}></Route>
-          <Route path="/nationals" element={<Nationals />}></Route>
-          <Route path="/players" element={<Players />}></Route>
-          <Route path="/stadiums" element={<Stadiums />}></Route>
-          <Route path="/trophies" element={<Trophies />}></Route>
-          <Route path="/club/:id" element={<ClubDetails />}></Route>
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/clubs" element={<Clubs />}></Route>
+        <Route path="/nationals" element={<Nationals />}></Route>
+        <Route path="/players" element={<Players />}></Route>
+        <Route path="/stadiums" element={<Stadiums />}></Route>
+        <Route path="/trophies" element={<Trophies />}></Route>
+        <Route path="/club/:id" element={<ClubDetails />}></Route>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </main>
   );
 }

@@ -32,6 +32,8 @@
     "city": "Manchester",
     "founded": 1878,
     "stadium": "Old Trafford",
+    "logo": "man-united.png",
+    "cover": "stadiums/old-trafford-cover.webp",
     "coach": "Erik ten Hag",
     "titles": [
       { "name": "Premier League", "count": 20 },
