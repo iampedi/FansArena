@@ -19,7 +19,7 @@ function App() {
         <Route path="/players" element={<Players />}></Route>
         <Route path="/stadiums" element={<Stadiums />}></Route>
         <Route path="/trophies" element={<Trophies />}></Route>
-        <Route path="/club/:id" element={<ClubDetails />}></Route>
+        <Route path="/club/:slug" element={<ClubDetails />}></Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>

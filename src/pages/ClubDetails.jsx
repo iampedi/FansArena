@@ -2,8 +2,8 @@ import { useParams } from "react-router";
 import clubsData from "../data/clubs.json";
 
 const ClubDetails = () => {
-  const { id } = useParams();
-  const club = clubsData.find((clubObj) => clubObj.id === id);
+  const { slug } = useParams();
+  const club = clubsData.find((clubObj) => clubObj.slug === slug);
 
   if (!club) return <p>Team not found</p>;
 

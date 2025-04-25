@@ -1,6 +1,7 @@
 [
   {
-    "id": "real-madrid",
+    "id": 1,
+    "slug": "real-madrid",
     "name": "Real Madrid",
     "country": "Spain",
     "city": "Madrid",
@@ -13,7 +14,8 @@
     ]
   },
   {
-    "id": "barcelona",
+    "id": 2,
+    "slug": "barcelona",
     "name": "FC Barcelona",
     "country": "Spain",
     "city": "Barcelona",
@@ -26,7 +28,8 @@
     ]
   },
   {
-    "id": "man-united",
+    "id": 3,
+    "slug": "man-united",
     "name": "Manchester United",
     "country": "England",
     "city": "Manchester",
@@ -41,7 +44,8 @@
     ]
   },
   {
-    "id": "bayern",
+    "id": 4,
+    "slug": "bayern",
     "name": "Bayern Munich",
     "country": "Germany",
     "city": "Munich",
@@ -54,7 +58,8 @@
     ]
   },
   {
-    "id": "psg",
+    "id": 5,
+    "slug": "psg",
     "name": "Paris Saint-Germain",
     "country": "France",
     "city": "Paris",
