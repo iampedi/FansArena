@@ -5,7 +5,6 @@ import {
   DialogTitle,
   DialogBackdrop,
 } from "@headlessui/react";
-import { Children } from "react";
 
 const Modal = (props) => {
   return (

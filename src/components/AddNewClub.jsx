@@ -39,10 +39,11 @@ const AddNewClub = (props) => {
 
   return (
     <div className="_add-new">
-      <form className="flex flex-col gap-3">
+      <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
         <div className="item">
           <label htmlFor="name">Club Name</label>
           <input
+            required
             id="name"
             type="text"
             value={formData.name}
@@ -52,6 +53,7 @@ const AddNewClub = (props) => {
         <div className="item">
           <label htmlFor="founded">Founded Year</label>
           <input
+            required
             id="founded"
             type="text"
             value={formData.founded}
@@ -63,6 +65,7 @@ const AddNewClub = (props) => {
         <div className="item">
           <label htmlFor="country">Country</label>
           <input
+            required
             id="country"
             type="text"
             value={formData.country}
@@ -74,13 +77,14 @@ const AddNewClub = (props) => {
         <div className="item">
           <label htmlFor="city">City</label>
           <input
+            required
             id="city"
             type="text"
             value={formData.city}
             onChange={(e) => setFormData({ ...formData, city: e.target.value })}
           />
         </div>
-        <button onClick={handleSubmit}>Add New Club</button>
+        <button type="submit">Add New Club</button>
       </form>
     </div>
   );
