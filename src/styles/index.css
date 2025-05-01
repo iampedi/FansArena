@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-a {
-    @apply hover:text-blue-800 duration-300;
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-
 
 form .item {
     @apply flex flex-col gap-1;

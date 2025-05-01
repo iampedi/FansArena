@@ -1,26 +1,30 @@
 import { NavLink } from "react-router";
 
 const Navbar = () => {
+  const menuItems = [
+    { title: "Home", link: "/", active: true },
+    { title: "Clubs", link: "/clubs", active: true },
+    { title: "Nationals", link: "/nationals", active: true },
+    { title: "Players", link: "/players", active: false },
+    { title: "Stadiums", link: "/stadiums", active: false },
+    { title: "Trophies", link: "/trophies", active: false },
+  ];
+
   return (
-    <ul className="flex gap-6 [&_li]:uppercase [&_li]:font-medium [&_a.active]:text-yellow-600 [&_a]:hover:text-yellow-600 [&_a]:hover:duration-300">
-      <li>
-        <NavLink to={"/"}>Home</NavLink>
-      </li>
-      <li>
-        <NavLink to={"/clubs"}>Clubs</NavLink>
-      </li>
-      <li>
-        <NavLink to={"/nationals"}>Nationals</NavLink>
-      </li>
-      {/* <li>
-        <NavLink to={"/players"}>Players</NavLink>
-      </li>
-      <li>
-        <NavLink to={"/stadiums"}>Stadiums</NavLink>
-      </li>
-      <li>
-        <NavLink to={"/trophies"}>Trophies</NavLink>
-      </li> */}
+    <ul className="flex">
+      {menuItems.map(
+        (item, i) =>
+          item.active && (
+            <li key={i}>
+              <NavLink
+                to={item.link}
+                className="flex items-center gap-2 rounded-full px-4 py-2 text-[17px] text-gray-500 hover:bg-gray-100/90 hover:text-black [&.active]:font-semibold [&.active]:text-black"
+              >
+                {item.title}
+              </NavLink>
+            </li>
+          ),
+      )}
     </ul>
   );
 };
